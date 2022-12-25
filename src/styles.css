@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  transition: background-color 1s;
+}
+
+.clickMe {
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  background-color: #bfbfbf;
+  width: 100px;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color, box-shadow 0.5s;
+  box-shadow: 4px 2px 2px #bfbfbf;
+}
+
+.clickMe:hover {
+  background-color: #efcfcf;
+  box-shadow: 2px 0px 2px #cfcfcf;
+}
